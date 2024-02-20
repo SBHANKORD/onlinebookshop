@@ -1,0 +1,304 @@
+body {
+    font-size: 62.4px;
+    margin: 0;
+    background-color: #1700e7;
+}
+
+h6 {
+    font-family: "Kode Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+span {
+    color: #ff00f7;
+    font-weight: 800;
+    font-family: Roboto;
+}
+
+
+
+@media(max-width: 450px) {
+
+
+    /* ///////////////-------  DELIVERY SECTION  ---------////////////////// */
+
+
+    .delivery-book {
+        width: 100%;
+        background: url(../img/hero/4873152.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 100px 10px;
+    }
+
+    .delivery-book .delivery-book-1 {
+        background-color: #3165cd;
+        border-radius: 24px;
+        color: #ffffff;
+        border: 2px solid #ffffff;
+        box-shadow: 2px 5px 5px #3165cd;
+    }
+
+    .delivery-book .delivery-book-1 img {
+        border-top-right-radius: 24px;
+        border-top-left-radius: 24px;
+    }
+
+    .delivery-book .delivery-book-1 div {
+        text-align: center;
+        padding: 10px 10px;
+    }
+
+    .delivery-book .delivery-book-1 div h1 {
+        font-family: "Kode Mono", monospace;
+        font-weight: 700;
+        font-size: 1.44rem;
+        text-shadow: 0px 0px 20px #ffffff;
+    }
+
+    .delivery-book .delivery-book-1 div h1 span {
+        text-shadow: 0px 0px 20px #fa03a8;
+    }
+
+    .delivery-book .delivery-book-1 div p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        font-size: 1rem;
+        margin-top: 20px;
+        color: #ffffffda;
+    }
+
+    .delivery-book .delivery-book-1 div button {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin: 30px 0 10px 0;
+        background-color: #ffffff;
+        color: #3165cd;
+        text-shadow: 1px 2px 7px #3165cd;
+        box-shadow: 2px 5px 5px #ffffff;
+
+    }
+
+
+    /* ///////////////-------  TYPE BOOKS SECTION  ---------////////////////// */
+
+
+    .type-book {
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(to right, #ff00f7, #7300ff);
+        padding: 20px 10px;
+    }
+
+    .type-book h1 {
+        font-size: 2.4rem;
+        font-family: "Kode Mono", monospace;
+        font-weight: 700;
+        text-align: center;
+        color: #ffffff;
+        text-shadow: 5px 7px 6px #f100c9;
+    }
+
+    .type-book h2 {
+        width: fit-content;
+        font-size: 1rem;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        position: relative;
+        right: 50%;
+        left: 50%;
+        margin-top: 20px;
+        transform: translate(-50%, -50%);
+        color: #036afa;
+        text-shadow: 5px 7px 6px #1555de;
+        cursor: pointer;
+    }
+
+    .type-book h2 span {
+        color: #fa03a8;
+        text-shadow: 1px 2px 6px #ffffff;
+    }
+
+    .type-book .type-book-box {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .type-book .type-book-box .type-book-1 {
+        width: 190px;
+        height: 50%;
+        background-color: #ffffff46;
+        border-radius: 24px;
+        backdrop-filter: blur(20px);
+        margin-top: 50px;
+        background: url(../img/books/6889325.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 5px 5px 6px #7300ff;
+    }
+
+    .type-book .type-book-box .type-book-1 h1 {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .type-book .type-book-box .type-book-1 h1 span {
+        color: #7300ff;
+        font-family: "Roboto", sans-serif;
+
+    }
+
+    .type-book .type-book-box .type-book-2 {
+        width: 190px;
+        height: 50%;
+        background-color: #ffffff3e;
+        border-radius: 24px;
+        backdrop-filter: blur(20px);
+        margin-bottom: 50px;
+        background: url(../img/books/books-imagination-still-life.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 5px 5px 6px #f100c9;
+
+    }
+
+    .type-book .type-book-box .type-book-2 h1 {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .type-book .type-book-box .type-book-2 h1 span {
+        color: #7300ff;
+        font-family: "Roboto", sans-serif;
+
+    }
+
+    /* ///////////////-------  DESCRAPTION SECTION  ---------////////////////// */
+
+
+    .descraption-book {
+        width: 100%;
+        height: 100vh;
+        background: url(../img/books/handsome-guy-study-library.jpg);
+        background-position: -250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .descraption-book .read-backg {
+        font-size: 2rem;
+        font-family: "Roboto" sans-serif;
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+    .descraption-book .read-backg h1 {
+        padding-top: 80px;
+        margin-left: 20px;
+    }
+
+    .descraption-book .read-backg .read-backg-desc {
+        width: 230px;
+        height: 130px;
+        background-color: #da098a47;
+        box-shadow: 5px 8px 5px #ff00f761;
+        backdrop-filter: blur(8px);
+        border-radius: 10px;
+        position: relative;
+        top: 170px;
+        left: 130px;
+
+    }
+
+    .descraption-book .read-backg .read-backg-desc p {
+        text-align: center;
+        font-size: 0.9rem;
+        font-family: "Roboto" sans-serif;
+        font-weight: 600;
+        color: #ffffff;
+        padding-top: 30px;
+    }
+
+    .descraption-book .read-backg .read-backg-desc p span {
+        color: #0055ff;
+        font-family: "Kode Mono", monospace;
+    }
+
+
+
+
+    /* ///////////////-------  PDF BOOKS SECTION  ---------////////////////// */
+
+
+    .pdf-books {
+        width: 100%;
+        height: 80vh;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pdf-books div {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .pdf-books div h1 {
+        font-size: 2.4rem;
+        font-family: Roboto;
+        font-weight: 700;
+    }
+
+    .pdf-books div h1 span {
+        text-shadow: 2px 3px 50px #f100c9;
+    }
+
+    .pdf-books div p {
+        width: fit-content;
+        font-size: 1.4rem;
+        margin: 10px 20px;
+        margin-top: 20px;
+        padding: 10px 20px;
+        border: 1px solid #036afa;
+        border-radius: 24px;
+    }
+
+    .pdf-books div p span {
+        color: #000dff;
+        text-shadow: 2px 3px 20px #000dff;
+
+    }
+
+    .pdf-books div button {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 1.4rem;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin: 30px 0 10px 0;
+        background-color: #0e39e3;
+        color: #ffffff;
+        text-shadow: 1px 3px 7px #ffffff;
+        box-shadow: -1px 0px 60px #000dff;
+
+    }
+
+}
